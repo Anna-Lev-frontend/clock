@@ -1,0 +1,17 @@
+.main-dial{
+border-radius: 50%;
+width: 500px;
+height: 500px;
+background-color: yellow;
+position: relative;
+}
+.point{
+    position: absolute;
+    top: calc(50% - 40px);
+    right: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: green;
+    
+}
