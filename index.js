@@ -11,8 +11,8 @@ const makePointsDeal = () => {
     const points = new Array(12).fill(null);
     const arrayDiv = points.map((value, index) => {
         const div = document.createElement('div');
-        const xPosition;
-        const yPosition;
+        const xPosition
+        const yPosition
         div.style.transform = `translate(${xPosition}px,${yPosition}px)`;
 
         div.classList.add('point');
